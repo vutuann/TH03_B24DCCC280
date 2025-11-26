@@ -6,7 +6,7 @@ import Filter from '../components/Filter';
 import Pagination from '../components/Pagination';
 import { useNavigate } from 'react-router-dom';
 
-const ITEMS_PER_PAGE = 8;
+const ITEMS_PER_PAGE = 6;
 
 const HomePage: React.FC = () => {
     const { state } = useProductContext();
